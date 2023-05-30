@@ -57,6 +57,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun test(){
-
+        val navController = findNavController(R.id.nav_host_fragment_content_main)
     }
 }
